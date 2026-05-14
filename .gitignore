@@ -1,0 +1,14 @@
+# Ignore Java class files
+*.class
+
+# IDE files
+*.log
+*.idea/
+*.vscode/
+
+# Build directories
+bin/
+build/
+
+# Mac/Linux files
+.DS_Store
