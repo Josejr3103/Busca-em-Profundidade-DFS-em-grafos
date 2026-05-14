@@ -50,9 +50,8 @@ public class DFS_Demo {
         visited[vertex] = true;
         totalVisitados++;
         totalPassagens += adjacencyList.get(vertex).size();
-
-        // Mostra o vértice com cor baseada na profundidade
-        String cor = profundidade % 2 == 0 ? GREEN : YELLOW;
+        
+        String cor = GREEN;
         System.out.print(cor + BOLD + "[" + vertex + "]" + RESET + " ");
 
         for (int vizinho : adjacencyList.get(vertex)) {
